@@ -1,0 +1,551 @@
+
+.font-Sharp,
+.samsung-cont02-EasySteps .EasySteps > div > ol li > span
+{font-family:"SamsungSharpSans";}
+
+/*숫자 폰트*/
+.br{display: none;}
+.M-br{display: none;}
+
+.title-txt{font-size: 46px; letter-spacing: -2px; margin: 60px 0; text-align: center;}
+/*섹션 타이틀*/
+
+.Box-sub-txt{font-size: 20px; letter-spacing: 5px; width: 247px; height: 37px; display: block; text-align: center; line-height: 37px; color: #fff; position: relative; margin: 0 auto;}
+.Box-sub-txt::before,.Box-sub-txt::after{content: ''; width: 600px; height: 1px; position: absolute; top: 50%;}
+.Box-sub-txt::before{left: -596px;}
+.Box-sub-txt::after{right: -596px;}
+/*서브 박스 타이틀*/
+
+.TB100{padding-top: 100px; padding-bottom: 100px;}
+/*큰섹션 위,아래 공통 패딩값*/
+
+.inner{margin: 0 auto; max-width: 1440px; padding-left: 20px; padding-right: 20px;}
+/*공통 inner*/
+
+.samsung-cont01-Notice > h2 > span,
+.samsung-cont01-Notice > h2 > span::before,
+.samsung-cont01-Notice > h2 > span:after,
+.samsung-cont01-Benefits > h2 > span,
+.samsung-cont01-Benefits > h2 > span::before,
+.samsung-cont01-Benefits > h2 > span:after,
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > h3
+{background-color: #6783ba;}
+
+.EasySteps > h2 > span,
+.EasySteps > h2 > span::before,
+.EasySteps > h2 > span::after,
+.samsung-cont02 .EasySteps > div > h3::after,
+.samsung-cont02 .EasySteps > div > h3::before,
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div,
+.samsung-cont02 .Select button[type="button"],
+.samsung-cont02 .HashTag .text-alert
+{background-color: #516c8d;}
+
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > div > span,
+.samsung-cont01 .samsung-cont01-Benefits ul > li > strong
+{color: #6783ba;}
+
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > div ol li,
+.samsung-cont01 .samsung-cont01-Benefits ul > li > p
+{color: #2f2f2f;}
+
+.samsung-cont01 .samsung-cont01-Benefits ul > li div:last-child p,
+.samsung-cont03 > div
+{color: #a3a3a3;}
+
+.samsung-cont02 .Select > div > h2 > span:last-child
+{color: #516c8d;}
+
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn mark,
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > a,
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > h3,
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div p,
+.samsung-cont02 .Select button[type="button"],
+.samsung-cont02 .HashTag button,
+.samsung-cont02 .HashTag .text-alert p
+{color: #fff;}
+/*공통컬러*/
+
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt,
+.samsung-cont01 .samsung-cont01-Benefits ul > li,
+.samsung-cont02 .EasySteps > div > ol li,
+.samsung-cont02 .Select > div,
+.samsung-cont02 .HashTag
+{border-radius: 15px;}
+
+.samsung-cont02 .Select button[type="button"],
+.samsung-cont02 .HashTag button
+{border-radius: 40px;}
+/*bg 라운딩*/
+
+.samsung-cont01 .samsung-cont01-Benefits ul > li div:last-child p,
+.samsung-cont02 .Select > div > ul:nth-child(4) li,
+.samsung-cont03 > div > div > ul
+{font-size: 15px;}
+/*폰트크기 15px*/
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li div > p
+{font-size: 18px; font-weight: 400;}
+/*폰트크기 18px*/
+
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > div,
+.samsung-cont01 .samsung-cont01-Benefits ul > li > p,
+.samsung-cont01 .samsung-cont01-Benefits ul > li > strong,
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div p
+{font-size: 22px; font-weight: 700;}
+/*폰트 크기 22px*/
+
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li h3,
+.samsung-cont02 .EasySteps > div > ol li > span,
+.samsung-cont02 .HashTag div:first-child p
+{font-size: 24px; font-weight: 700;}
+/*폰트 크기 24px*/
+
+.samsung-cont02 .EasySteps > div > h3,
+.samsung-cont02 .Select button[type="button"]
+{font-size: 34px;}
+/*폰트 크기 34px*/
+
+
+
+.samsung-z-kv {width: 100%;background: linear-gradient(335deg, rgba(48, 48, 48, 0.687) 0%, rgb(225, 225, 225) 0%, rgb(253, 252, 252) 40%);}
+.samsung-z-kv .samsung-z-kv-wrap{}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn{display: flex; align-items: center; justify-content: space-between; height: 100%; margin: 0 170px; padding: 50px 0;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn mark{background-color: #000; font-size: 16px; letter-spacing: 6px; padding: 0 10px 0 17px;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1{font-size: 68px; letter-spacing: -3px; margin-bottom: 30px;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p:first-child{margin-bottom: -25px;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p span{font-size: 72px; vertical-align: middle;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > p{font-size: 26px;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > span{ font-size: 27px; display: block; margin: 40px 0 60px 0;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > a{font-size: 22px; background-color: #23758d; padding: 10px 40px; border-radius: 30px; }
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn .sansung-z-kv-bg{width: 43%;}
+.samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn .sansung-z-kv-bg img{width: 100%;}
+/*2020 삼성제트 200인의 청정 체험단*/
+.samsung-z-mov{text-align: center;}
+.samsung-z-mov h2{position: relative; display: inline-block;}
+.samsung-z-mov h2:after{content: ''; width: 655px; height: 17px; background-color: #d7e3fc; position: absolute; left: -10px; top: 35px; z-index: -1;}
+.samsung-z-mov .video {width: 969px; height: 545px; margin: 0 auto; padding-bottom: 60px;}
+.samsung-z-mov > a {font-size: 34px; font-weight: bold; color: #000; border-bottom: 1px solid #000;}
+/*동영상 플레이어*/
+
+.samsung-cont01{background-color: #f5f5f5;}
+.samsung-cont01 .samsung-cont01-Notice{margin-bottom: 100px;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt{background-color: #fff; padding: 75px 0; display: flex; justify-content: center;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li{display: flex; margin-bottom: 60px;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li:first-child ol,.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li:nth-child(3) ol{display: flex; justify-content: space-between;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > h3{ width: 160px; height: 40px; border-radius: 5px; text-align: center; line-height: 40px;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div{margin-left: 90px;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li{line-height: 35px;}
+.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li:first-child{padding-top: 5px; padding-right: 70px;}
+/*Notice - 체험단 모집 섹션*/
+
+.samsung-cont01 .samsung-cont01-Benefits ul{display: flex; justify-content: space-between;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li{width: 32%; background-color: #fff; text-align: center; padding: 30px 0;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li:first-child div:first-child img{width: 50%;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li:last-child strong span{font-weight: 400;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li div:first-child{margin-bottom: 30px;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li div:first-child img{width: 35%;}
+.samsung-cont01 .samsung-cont01-Benefits ul > li:last-child div:first-child{margin-top: 70px;}
+/*Benefits - 활동 혜택 섹션*/
+
+
+.samsung-cont02 .EasySteps > div{margin-bottom: 80px;}
+.samsung-cont02 .EasySteps > div > h3{text-align: center; position: relative; margin-bottom: 30px;}
+.samsung-cont02 .EasySteps > div > h3::after,
+.samsung-cont02 .EasySteps > div > h3::before{position: absolute; content: ''; width: 8px; height: 8px; top: 50%; transform: translateY(-50%) rotate(45deg);}
+.samsung-cont02 .EasySteps > div > h3::after{left: 40%; position: absolute;}
+.samsung-cont02 .EasySteps > div > h3::before{right: 40%; position: absolute;}
+.samsung-cont02 .EasySteps > div > ol{display: flex; justify-content: space-between;}
+.samsung-cont02 .EasySteps > div > ol li{background-color: #f1f5fa; height: 200px; padding-left: 200px; width: 33.33%; position: relative;}
+.samsung-cont02 .EasySteps > div > ol li:not(:last-child){margin-right: 50px;}
+.samsung-cont02 .EasySteps > div > ol li::before{position: absolute; left: 50px; top: 50%; transform: translateY(-50%);}
+.samsung-cont02 .EasySteps > div > ol li:not(:last-child):after{content: ''; background-color: #f1f5fa; width: 35px; height: 35px; position: absolute; right: -5px; top: 50%; transform: translateY(-50%) rotate(45deg);}
+.samsung-cont02 .EasySteps > div > ol li > span{padding: 45px 0 15px 0; display: block;}
+.samsung-cont02 .EasySteps > div > ol li p{font-size: 15px;}
+.samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(1)::before{content: ''; background: url('../img/easySteps-icon01.png') no-repeat center center; position: absolute; top: 95px; left: 65px; width: 83px; height: 110px; background-size: cover;}
+.samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(2)::before,
+.samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(2)::before{content: ''; background: url('../img/easySteps-icon02.png') no-repeat center center; position: absolute; top: 100px; left: 60px; width: 79px; height: 109px; background-size: cover;}
+.samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(3)::before,
+.samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(3)::before{content: ''; background: url('../img/easySteps-icon03.png') no-repeat center center; position: absolute; top: 100px; left: 50px; width: 108px; height: 74px; background-size: cover;}
+.samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(1)::before{content: '';  background: url('../img/easySteps-icon04.png') no-repeat center center; position: absolute; top: 100px; left: 40px; width: 121px; height: 93px; background-size: cover;}
+/*EasySteps Fin*/
+.samsung-cont02 .Select{position: relative;}
+.samsung-cont02 .Select::before{content: url(../img/line_pattern_bottom.png); background-size: contain; position: absolute; bottom: -10%; left: -25%; z-index: -1;}
+.samsung-cont02 .Select::after{content: url(../img/line_pattern_top.png); background-size: contain; position: absolute; top: -5%; right: -35%; z-index: -1;}
+.samsung-cont02 .Select > div{border: 1px solid #516c8d; padding: 0 55px; background-color: #fff;}
+.samsung-cont02 .Select > div > ul:nth-child(2){display: flex; flex-wrap: wrap; justify-content: space-between;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li{margin-bottom: 70px; width: 19%;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child{margin-bottom: 15px;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child > img{width: 100%;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div{height: 60px;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div p{ text-align: center;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li:not(:nth-child(3)) > div:first-child div p{line-height: 60px;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p{font-size: 20px; line-height: 20px;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p:first-child{padding-top: 10px;}
+
+/* .samsung-cont02 .Select > div > ul:nth-child(2) li > div:last-child{height: 43px; margin-top: -20px;} */
+.samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"]{width: 0px; height: 0px; padding: 0; border: 0 none; margin: 0; overflow: hidden; position: absolute;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label{display: block; margin: auto;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label::before{content: ''; background: url('../img/none-icon.png') no-repeat center center; background-size: contain;  cursor: pointer; width: 43px; height: 43px; display: block; margin: 0 auto;}
+.samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"]:checked + label::before{content: ''; background: url('../img/click-icon.png') no-repeat center center; background-size: contain; cursor: pointer;}
+.samsung-cont02 .Select > div > ul:nth-child(3),
+.samsung-cont02 .Select > div > ul:nth-child(4){text-align: center;}
+.samsung-cont02 .Select > div > ul:nth-child(3) li{display: inline-block; margin: 0 10px;}
+.samsung-cont02 .Select > div > ul:nth-child(3) li a{display: inline-block; width: 93px; height: 93px;}
+.samsung-cont02 .Select > div > ul:nth-child(3) li a img{width: 100%;}
+.samsung-cont02 .Select > div > ul:nth-child(4){padding: 53px 0;}
+.samsung-cont02 .Select > div > ul:nth-child(4) li{line-height: 25px;}
+.samsung-cont02 .Select button[type="button"]{font-weight: 700; width: 400px; height: 80px; margin: 65px auto; display: block;}
+/*Select Fin*/
+
+.samsung-cont02 .HashTag{background-color: #f5f5f5; padding: 0 100px; display: flex; justify-content: space-between; height: 240px; align-items: center;}
+.samsung-cont02 .HashTag button{display: block; width: 400px; height: 80px; font-size: 30px; font-weight: 700; background-color: #000; text-align: center; line-height: 80px;}
+.samsung-cont02 .HashTag .text-alert{position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100%; text-align: center;}
+.samsung-cont02 .HashTag .text-alert p{ font-size: 18px; padding: 10px 0;}
+
+#copytxt{position: absolute; left: -9999px; top: -9999px;}
+    /*카피 텍스트 날리기*/
+
+/*해시태그*/
+
+
+.samsung-cont02 .PopUp .PopUp-bg{background-color: rgba(0, 0, 0, .5); width: 100%; height: 100%; position: fixed; left: 0; top: 0;}
+.samsung-cont02 .PopUp .PopUp-ctn{position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 1000;}
+.samsung-cont02 .PopUp .PopUp-ctn img{width: 100%;}
+.samsung-cont02 .PopUp .PopUp-ctn button{width: 70px; height: 70px; position: absolute; top:0; right: 0;}
+/*팝업*/
+
+.samsung-cont03{background-color: #1f1f1f;}
+.samsung-cont03 > div > div{padding: 0 50px; display: flex; justify-content: space-between;}
+.samsung-cont03 > div > div > h2{width: 10%;}
+.samsung-cont03 > div > div > ul li{line-height: 30px;}
+
+/*유의사항*/
+
+@media screen and (min-width: 769px) and (max-width:1440px){
+
+    .title-txt{font-size: 3.1944vw; letter-spacing: -0.1389vw; margin: 4.1667vw 0;}
+/*섹션 타이틀*/
+
+    .Box-sub-txt{font-size: 1.3889vw; letter-spacing: 0.3472vw; width: 17.1528vw; height: 2.5694vw; line-height: 2.5694vw}
+    .Box-sub-txt::before,.Box-sub-txt::after{width: 41.6667vw; height:0.0694vw;}
+    .Box-sub-txt::before{left: -41.3889vw;}
+    .Box-sub-txt::after{right: -41.3889vw;}
+    /*서브 박스 타이틀*/
+
+    .TB100{padding-top: 6.9444vw; padding-bottom: 6.9444vw;}
+    /*큰섹션 위,아래 공통 패딩값*/
+
+    .inner{max-width: 100vw; padding-right: 1.7361vw; padding-left: 1.7361vw;}
+    /*공통 inner*/
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li,
+    .samsung-cont02 .EasySteps > div > ol li,
+    .samsung-cont02 .Select > div,
+    .samsung-cont02 .HashTag
+    {border-radius: 1.0417vw;}
+
+    .samsung-cont02 .Select button[type="button"],
+    .samsung-cont02 .HashTag button
+    {border-radius: 2.7778vw;}
+    /*bg 라운딩*/
+
+    .samsung-cont01 .samsung-cont01-Benefits ul > li div:last-child p,
+    .samsung-cont02 .Select > div > ul:nth-child(4) li,
+    .samsung-cont03 > div > div > ul
+    {font-size: 1.0417vw;}
+    /*폰트크기 1.0417vw*/
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li div > p
+    {font-size: 1.2500vw;}
+    /*폰트크기 1.2500vw*/
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > div,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li > p,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li > strong,
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div p
+    {font-size: 1.5278vw; }
+    /*폰트 크기 1.5278vw*/
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li h3,
+    .samsung-cont02 .EasySteps > div > ol li > span,
+    .samsung-cont02 .HashTag div:first-child p,
+    .samsung-cont03 > div > div h2
+    {font-size: 1.6667vw; }
+    /*폰트 크기 24px*/
+
+    .samsung-cont02 .EasySteps > div > h3,
+    .samsung-cont02 .Select button[type="button"]
+    {font-size: 2.3611vw;}
+    /*폰트 크기 2.3611vw*/
+
+
+
+    .samsung-z-kv {height:50.3472vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn{margin: 0 11.8056vw; padding: 3.4722vw 0;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn mark{ font-size: 1.1111vw; letter-spacing: 0.4167vw; padding: 0 0.6944vw 0 1.1806vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1{font-size: 4.7222vw; letter-spacing: -0.2083vw; margin-bottom: 2.0833vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p:first-child{margin-bottom: -1.7361vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p span{font-size: 5.0000vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > p{font-size: 1.8056vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > span{ font-size: 1.8056vw; margin: 2.7778vw 0 4.1667vw 0;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > a{font-size: 1.5278vw; padding: 0.6944vw 2.7778vw; border-radius: 2.0833vw; }
+
+    /*2020 삼성제트 200인의 청정 체험단*/
+
+    .samsung-z-mov h2:after{width: 45.4861vw; height: 1.1806vw;left: -0.6944vw; top: 2.4306vw;}
+    .samsung-z-mov .video {padding-bottom: 4.1667vw; width: 67.2917vw; height: 37.8472vw;}
+    .samsung-z-mov > a {font-size: 2.3611vw;}
+    /*동영상 플레이어*/
+
+    .samsung-cont01 .samsung-cont01-Notice{margin-bottom: 6.9444vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt{padding: 5.2083vw 0;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li{margin-bottom: 4.1667vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > h3{ width: 11.1111vw; height: 2.7778vw; border-radius: 0.3472vw; text-align: center; line-height: 2.7778vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div{margin-left: 6.2500vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li{line-height: 2.4306vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li:first-child{padding-top: 0.3472vw; padding-right: 4.8611vw;}
+    /*Notice - 체험단 모집 섹션*/
+
+    .samsung-cont01 .samsung-cont01-Benefits ul > li{padding: 2.0833vw 0;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li div:first-child{margin-bottom: 2.0833vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:last-child div:first-child{margin-top: 4.8611vw;}
+    /*Benefits - 활동 혜택 섹션*/
+
+
+    .samsung-cont02 .EasySteps > div{margin-bottom: 5.5556vw;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(1)::before{top: 6.5972vw; left: 4.5139vw; width: 5.7639vw; height: 7.6389vw;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(2)::before,
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(2)::before{top: 6.9444vw; left: 4.1667vw; width: 5.4861vw; height: 7.5694vw;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(3)::before,
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(3)::before{top: 6.9444vw; left: 3.4722vw; width: 7.5000vw; height: 5.1389vw;}
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(1)::before{top: 6.9444vw; left: 2.7778vw; width: 8.4028vw; height: 6.4583vw;}
+    .samsung-cont02 .EasySteps > div > h3{margin-bottom: 2.0833vw;}
+    .samsung-cont02 .EasySteps > div > h3::after,
+    .samsung-cont02 .EasySteps > div > h3::before{width:0.5556vw; height:0.5556vw;}
+    .samsung-cont02 .EasySteps > div > ol li{ height: 13.8889vw; padding-left: 13.8889vw;}
+    .samsung-cont02 .EasySteps > div > ol li p{font-size: 1.0417vw;}
+    .samsung-cont02 .EasySteps > div > ol li:not(:last-child){margin-right: 3.4722vw;}
+    .samsung-cont02 .EasySteps > div > ol li:not(:last-child):after{ width: 2.4306vw; height: 2.4306vw; right: -0.3472vw; }
+    .samsung-cont02 .EasySteps > div > ol li > span{padding: 3.1250vw 0 1.0417vw 0;}
+    /*EasySteps Fin*/
+
+    .samsung-cont02 .Select > div{ padding: 0 3.8194vw; }
+    .samsung-cont02 .Select > div > ul:nth-child(2) li{margin-bottom: 4.8611vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child{margin-bottom: 1.0417vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div{height: 4.1667vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:not(:nth-child(3)) > div:first-child div p{line-height: 4.1667vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p{font-size: 1.3889vw; line-height: 1.3889vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p:first-child{padding-top: 0.6944vw;}
+
+
+    .samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label{ width: 2.9861vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label::before{ width: 2.9861vw; height: 2.9861vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(3) li{margin: 0 0.6944vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(3) li a{ width: 6.4583vw; height: 6.4583vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(4){padding:3.6806vw 0;}
+    .samsung-cont02 .Select > div > ul:nth-child(4) li{line-height: 1.7361vw;}
+    .samsung-cont02 .Select button[type="button"]{ width: 27.7778vw; height: 5.5556vw; margin: 4.5139vw auto;}
+    /*Select Fin*/
+
+    .samsung-cont02 .HashTag{ padding: 0 6.9444vw;  height: 16.6667vw; }
+    .samsung-cont02 .HashTag button{display: block; width: 27.7778vw; height: 5.5556vw; font-size: 2.0833vw;  line-height: 5.5556vw;}
+    .samsung-cont02 .HashTag .text-alert p{ font-size: 1.2500vw; padding: 0.6944vw 0;}
+
+    #copytxt{position: absolute; left: -9999px; top: -9999px;}
+        /*카피 텍스트 날리기*/
+
+    /*해시태그*/
+
+
+    .samsung-cont02 .PopUp .PopUp-ctn button{width: 4.8611vw; height: 4.8611vw;}
+    /*팝업*/
+
+    .samsung-cont03 > div > div{padding: 0 3.4722vw;}
+    .samsung-cont03 > div > div > ul{padding-left: 6.9444vw;}
+    .samsung-cont03 > div > div > ul li{line-height: 2.0833vw;}
+    /*유의사항*/
+
+}
+
+
+@media screen and (max-width: 768px){
+    .title-txt{font-size: 5.7944vw; letter-spacing: -0.1389vw; margin: 8.2667vw 0; }
+    /*섹션 타이틀*/
+    .br{display: block;}
+    .PC-br{display: none;}
+    .M-br{display: block;}
+
+    .Box-sub-txt{font-size: 2.5889vw; letter-spacing: 0.7472vw; width: 31.5528vw; height: 5.5694vw;   line-height: 5.5694vw;   margin: 0 auto;}
+    .Box-sub-txt::before,.Box-sub-txt::after{ width:30.6667vw; height: 0.0694vw;  top: 50%;}
+    .Box-sub-txt::before{left: -28.3889vw;}
+    .Box-sub-txt::after{right: -28.3889vw;}
+    /*서브 박스 타이틀*/
+
+    .TB100{padding-top: 14.9444vw; padding-bottom: 14.9444vw;}
+    /*큰섹션 위,아래 공통 패딩값*/
+
+    .inner{margin: 0 auto; max-width: 100.0000vw; padding-left: 4.125vw; padding-right: 4.125vw;}
+    /*공통 inner*/
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li,
+    .samsung-cont02 .EasySteps > div > ol li,
+    .samsung-cont02 .Select > div,
+    .samsung-cont02 .HashTag
+    {border-radius: 2.0417vw;}
+
+    .samsung-cont02 .Select button[type="button"],
+    .samsung-cont02 .HashTag button
+    {border-radius: 5.7778vw;}
+    /*bg 라운딩*/
+
+    .samsung-cont01 .samsung-cont01-Benefits ul > li div:last-child p,
+    .samsung-cont02 .Select > div > ul:nth-child(4) li
+    {font-size: 2.7417vw; line-height: 3.9vw;}
+    /*폰트크기 1.0417vw*/
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li div > p
+    {font-size: 2.65vw; line-height: 5vw;}
+    /*폰트크기 1.2500vw*/
+
+
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul li > div,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li > p,
+    .samsung-cont01 .samsung-cont01-Benefits ul > li > strong,
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div p
+    {font-size: 3.2278vw; }
+    /*폰트 크기 1.5278vw*/
+
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li h3,
+    .samsung-cont03 > div > div h2
+    {font-size: 2.7667vw; }
+    /*폰트 크기 1.6667vw*/
+    .samsung-cont02 .EasySteps > div > ol li > span
+    {font-size: 3.7667vw; }
+
+    .samsung-cont02 .EasySteps > div > h3,
+    .samsung-cont02 .Select button[type="button"]
+    {font-size: 4.5611vw;}
+    /*폰트 크기 2.3611vw*/
+
+
+
+    .samsung-z-kv {width: 100%;background: linear-gradient(335deg, rgba(48, 48, 48, 0.687) 0%, rgb(225, 225, 225) 0%, rgb(253, 252, 252) 40%); }
+    .samsung-z-kv .samsung-z-kv-wrap{}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn{ align-items: center; height: 100%; margin: 0; position: relative; padding: 13.5104vw 0;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn mark{ font-size: 1.2111vw; letter-spacing: 1.1167vw; padding: 0 1.6944vw 0px 2.6806vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1{font-size: 5.8222vw; letter-spacing: -0.2083vw; margin-bottom: 4.3833vw; margin-top: 2vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p:first-child{margin-bottom: -1.7361vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn h1 p span{font-size: 7.1vw; }
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > p{font-size: 2.6056vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > span{ font-size: 3.475vw;  margin: 4.7778vw 0 6.7611vw 0;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn > .txt-ctn > a{font-size: 3.1278vw;  padding: 1.6944vw 6.3778vw; border-radius: 5.0833vw; }
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn .sansung-z-kv-bg{width: 37.9vw; position: absolute; right: 0; bottom: 9.1667vw;}
+    .samsung-z-kv .samsung-z-kv-wrap .samsung-z-kv-ctn .sansung-z-kv-bg img{width: 100%;}
+    /*2020 삼성제트 200인의 청정 체험단*/
+    .samsung-z-mov{ padding-top: 5vw;}
+    .samsung-z-mov h2{ }
+    .samsung-z-mov h2:after{ width:84.4861vw; height: 2.1806vw;   left: -0.6944vw; top: 4.9306vw; }
+    .samsung-z-mov .video {width: 87vw; height: 48.9vw; margin: 0 auto; padding-bottom: 4.1667vw;}
+    .samsung-z-mov > a {font-size: 3.3611vw;   border-bottom: 0.0694vw solid #000;}
+    /*동영상 플레이어*/
+
+    .samsung-cont01{}
+    .samsung-cont01 .samsung-cont01-Notice{margin-bottom: 6.9444vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt{ padding: 10.2083vw 0;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li{ margin-bottom: 6.1667vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li:last-child{ margin-bottom: 0;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li:first-child ol,.samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li:nth-child(3) ol{ display: block;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > h3{ width: 18.5111vw; height: 4.5778vw; border-radius: 0.7472vw;  line-height: 4.5778vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div{margin-left: 6.2500vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li{line-height: 4.3306vw;}
+    .samsung-cont01 .samsung-cont01-Notice .Notice-txt ul > li > div ol li:first-child{padding-top: 0.3472vw; padding-right: 4.5778vw;}
+    /*Notice - 체험단 모집 섹션*/
+    .samsung-cont01 .samsung-cont01-Benefits ul{display: block;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li{width: 100%; padding: 8.0833vw 0 4.0833vw 0; margin-bottom: 6vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:first-child{height: 77vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:nth-child(2){height: 71vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:last-child{height: 57vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:first-child div:first-child img{width: 50%;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:last-child strong span{}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li div:first-child{margin-bottom: 2.0833vw;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li div:first-child img{width: 35%;}
+    .samsung-cont01 .samsung-cont01-Benefits ul > li:last-child div:first-child{margin-top: 4.8611vw;}
+    /*Benefits - 활동 혜택 섹션*/
+
+    .samsung-cont02 .EasySteps > div{margin-bottom: 5.5556vw;}
+    .samsung-cont02 .EasySteps > div > h3{  margin-bottom: 5.0833vw;}
+    .samsung-cont02 .EasySteps > div > h3::after,
+    .samsung-cont02 .EasySteps > div > h3::before{  width: 1.2556vw; height: 1.2556vw; top: 50%; transform: translateY(-50%) rotate(45deg);}
+    .samsung-cont02 .EasySteps > div > h3::after{left: 28%; }
+    .samsung-cont02 .EasySteps > div > h3::before{right: 28%; }
+    .samsung-cont02 .EasySteps > div > ol{ flex-direction: column; align-items: center;}
+    .samsung-cont02 .EasySteps > div > ol li{ height: 24.8889vw; padding-left: 26.8889vw; width:57.6354vw; display: block;}
+    .samsung-cont02 .EasySteps > div > ol li:last-child{margin-bottom: 10vw;}
+    .samsung-cont02 .EasySteps > div > ol li:not(:last-child){margin-right: 0; margin-bottom: 8vw;}
+    .samsung-cont02 .EasySteps > div > ol li::before{ left: 3.4722vw; top: 50%; transform: translateY(-50%);}
+    .samsung-cont02 .EasySteps > div > ol li:not(:last-child):after{  width: 2.4306vw; height: 2.4306vw;  right: 50%; bottom: -1.6927vw; top:100%; transform: translateY(-50%) rotate(45deg);}
+    .samsung-cont02 .EasySteps > div > ol li > span{padding: 5.1250vw 0 1.0417vw 0; }
+    .samsung-cont02 .EasySteps > div > ol li p{font-size: 3.0417vw;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:first-child > span{padding: 7vw 0 1.0417vw 0}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(1)::before{top: 12.0972vw; left: 9.5139vw; width: 11.1vw; height: 100%; background-size: contain;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(2)::before,
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(2)::before{   top: 12.0972vw; left: 6.5139vw; width: 11.1vw; height: 100%; background-size: contain;}
+    .samsung-cont02 .EasySteps > div:nth-child(2) > ol li:nth-child(3)::before,
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(3)::before{  top: 12.7444vw; left: 6.9722vw; width: 15.1vw; height: 100%; background-size: contain;}
+    .samsung-cont02 .EasySteps > div:nth-child(3) > ol li:nth-child(1)::before{    top:12.7444vw; left: 6.9722vw; width: 15.1vw; height: 100%; background-size: contain;}
+    /*EasySteps Fin*/
+    .samsung-cont02 .Select{}
+    .samsung-cont02 .Select::before{   bottom: 0; left: -25%; }
+    .samsung-cont02 .Select::after{  top: -13%; right: -50%; }
+    .samsung-cont02 .Select > div{border: 0.0694vw solid #516c8d; padding: 0 3.8194vw; }
+    .samsung-cont02 .Select > div > ul:nth-child(2) li{margin-bottom: 8vw; width: 48%;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child{margin-bottom: 3.0417vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child > img{width: 100%;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li > div:first-child div{height: 9.1667vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:not(:nth-child(3)) > div:first-child div p{line-height: 9.1667vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p{font-size: 3.1889vw; line-height: 3.5889vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li:nth-child(3) > div:first-child div p:first-child{padding-top: 0.6944vw;}
+
+    /* .samsung-cont02 .Select > div > ul:nth-child(2) li > div:last-child{height: 2.9861vw; margin-top: -1.3889vw;} */
+    .samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"]{width: 0.0000vw; height: 0.0000vw; padding: 0; border: 0 none; margin: 0;  }
+    .samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label{ margin: auto;}
+    .samsung-cont02 .Select > div > ul:nth-child(2) li input[type="radio"] + label::before{width: 6vw; height: 6vw;  margin: 0 auto; background-size: contain;}
+    .samsung-cont02 .Select > div > ul:nth-child(3) li{ margin: 0 0.6944vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(3) li a{ width: 11.4583vw; height: 11.4583vw;}
+    .samsung-cont02 .Select > div > ul:nth-child(3) li a img{width: 100%;}
+    .samsung-cont02 .Select > div > ul:nth-child(4){padding: 3.6806vw 0;}
+    .samsung-cont02 .Select > div > ul:nth-child(4) li{line-height: 3.7361vw; margin-bottom:1vw ;}
+    .samsung-cont02 .Select button[type="button"]{ width: 58.7778vw; height: 11.5556vw; margin: 13.5139vw auto; }
+    /*Select Fin*/
+
+    .samsung-cont02 .HashTag{ padding: 6.9444vw 0;  height: 33.6667vw; display: inline-block; text-align: center; width: 100%;}
+    .samsung-cont02 .HashTag > div:first-child{margin-bottom: 4vw;}
+    .samsung-cont02 .HashTag button{ width:50.7778vw; height:10.5556vw; font-size: 3.6833vw;    line-height: 5.5556vw; margin: 0 auto;}
+    .samsung-cont02 .HashTag .text-alert{ top: 0; left: 50%; transform: translateX(-50%); width: 100%; }
+    .samsung-cont02 .HashTag .text-alert p{ font-size: 1.2500vw; padding: 0.6944vw 0;}
+    .samsung-cont02 .HashTag div:first-child p{line-height: 4.7vw; font-size: 3.2667vw;}
+
+    #copytxt{ left: -694.3750vw; top: -694.3750vw;}
+        /*카피 텍스트 날리기*/
+
+    /*해시태그*/
+
+
+    .samsung-cont02 .PopUp .PopUp-bg{background-color: rgba(0, 0, 0, .5); width: 100%; height: 100%;  left: 0; top: 0;}
+    .samsung-cont02 .PopUp .PopUp-ctn{ left: 50%; top: 50%; transform: translate(-50%, -50%); }
+    .samsung-cont02 .PopUp .PopUp-ctn img{width: 90vw;}
+    .samsung-cont02 .PopUp .PopUp-ctn button{width: 7.8611vw; height: 7.8611vw;  top:0; right: 0;}
+    /*팝업*/
+
+    .samsung-cont03 > div > div{padding: 0; display: block;}
+    .samsung-cont03 > div > div > h2{width: 100%; font-size: 3.7667vw; font-weight: 700; margin-bottom: 5vw; margin-left: -1vw;}
+    .samsung-cont03 > div > div > ul li{line-height: 3.3833vw; margin-bottom: 2vw; text-indent: -0.7813vw;}
+    .samsung-cont03 > div > div > ul{font-size: 2.6417vw;}
+
+    /*유의사항*/
+    
+
+
+
+}
